@@ -14,7 +14,7 @@ $(".pumpjack").on("mouseenter", function(){
 $(".interestpara").click (function(){
 	$('#careerpara').slideToggle();
 	$('#arrow').toggleClass('active');
-		
+
 });	
 
 
@@ -25,15 +25,6 @@ $('a').click(function(){
     },  800);
     return false;
 });
-
-
-
-
-//skrollr plugin for parallax effect//
-var s = skrollr.init({
-	forceHeight: false
-});
-
 
 
 // changes nav bar color on skroll and return to initial color on return//
@@ -48,7 +39,16 @@ $(window).on('scroll', function(){
 		$(".navbar").removeClass("navfloat");}
 });
 
+var $window = $(window);
+$('section[data-type = "background"]').each(function(){
+	var $bgobj=$(this);
+	$(window).scroll(function(){
+	var yPos =-($window.scrollTop()/$bgobj.data('speed'));
+	var coords = '50%' + yPos + 'px';
+	$bgobj.css({backgroundPosition:coords})
 
+	});
+});
 
 
 
