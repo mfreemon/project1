@@ -1,22 +1,27 @@
-html, body{ 
-	
-	font-family: 'Open Sans', sans-serif;
+html, body {
+
+	font-family: "Open Sans", 'sans-serif';
 	font-weight: 300;
-	color:#d1d1d1;
+	color:#D9D9D9;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-	height: 100%;
+	height:100%;
 }
 
+h1,h2,h3 {
+	margin: 0;
+
+}
 a, li, p, div, article, section, footer {
-	text-decoration: none;	
+	text-decoration: none;
 	color: inherit;
 }
 
 a:hover{
-	color: #ededed;
+	color: #fff;
 }
+
 button{
 	style: none;
 }
@@ -24,48 +29,51 @@ button{
  article{
 	padding:0 10px 10px 10px;
 	font-size: 16px;
+	font-style: Open Sans;
+	margin: 0;
 
 }
 
 .divider{
-	height: 30px;
+	height: 15px;
 	background-color: #000;
-	margin: 0 auto;
 }
 
 
 .intro{
 	text-align: center;
-	color: #ffffff;
 }
 
 .pumpjackback{
 	background: url('img/photo2.png') no-repeat;
 	height: 500px;
-	position: relative;
-	margin: 0 auto;	
 }
 
 .pumpjackback div{
 	width:450px;
-	top: 75px;
+	top: 100px;
 	margin: 0 auto;
 	position: relative;
-	background: rgba(59,49,47,0.30);	
+	background: rgba(19, 16, 13, 0.6);
 	overflow: auto;
 	margin-bottom: 0px;
 }
 
-
+/*temp fix for divs causing offset*/
 .biophoto{
-	box-shadow: 3px 3px 0 0;
-	position: relative;
-}
+		top: 30px;
+		width:400px;
+		position: relative;
+		margin: 0 auto;
+		text-align: center;
+		font-family: "Josefin Sans", 'sans-serif';
+		margin-top: -16px;
+	}
+
 
 .bio{
 	height:400px;
 	background-color: #40688F;
-	margin: 0 auto;
 }
 
 #arrow{
@@ -91,14 +99,12 @@ left:10px;
 
 .interest{
   background: url('img/photo5.jpg') no-repeat;
-  width: 100%;
   height:400px;
-  margin: 0 auto; 
 }
 
 
 .interestpara{
-	background: rgba(59,49,47,0.30);
+	background: rgba(19, 16, 13, 0.6);
 	height:auto;
 	width:300px;
 	position: relative;
@@ -119,34 +125,35 @@ left:10px;
 .inspiration{
 	height: 400px;
 	background: #bfbcc5;
-	color: #f5f5f5;	
+	color: #f5f5f5;
 	font-family: "Josefin Sans", 'sans-serif';
-	margin: 0 auto;
 }
 
+/*temp fix for divs causing offset*/
 #inspirationpara{
 	top: 30px;
 	width:400px;
 	position: relative;
 	margin: 0 auto;
 	text-align: center;
+	font-family: "Josefin Sans", 'sans-serif';
+	margin-top: -16px;
 }
+
 
 .language{
 	background: #434955 url('img/codelogo.png') no-repeat 50% 50%;
 	height: 300px;
-	margin: 0 auto;
+
 }
 
 .navbar{
 	height: 50px;
-	box-shadow: 0 0 8px 0 #3b3b3b ; 
+	box-shadow: 0 0 8px 0 #3b3b3b;
 	position: fixed;
 	background-color: #09d017;
-	width: 100%; 
+	width: 100%;
 	z-index: 100;
-	vertical-align: 50%;
-
 }
 
 
@@ -169,6 +176,7 @@ left:10px;
 	margin-right: 20px;
 }
 
+
 .navfloat{
 	background-color: rgba(74,238,22,0.75);
 }
@@ -178,15 +186,17 @@ footer{
 	background: #353b47;
 	font-family: "Josefin Sans", 'sans-serif';
 	margin: 0 auto;
+
 }
 
 
 .checkout{
-	margin-top: 0px;
+	margin-top: 10px;
 	top: 20px;
-	width: 300px;
-	position: relative;
+	width: 350px;
 	margin: 0 auto;
+	position: relative;
+
 }
 
 .checkout li{
@@ -196,11 +206,45 @@ footer{
 	text-align: center;
 }
 
+input{
+	margin-top: 10px;
+}
+
+
+#email_input{
+	-webkit-appearance: none;
+	border: 1px #09d017 solid;
+	text-align: center;
+	border-radius: 5px;
+	width: 150px;
+	height: 25px;
+	vertical-align: center;
+	margin-right: 5px;
+
+}
+
+#email_btn{
+	background: transparent;
+	border-radius: 5px;
+	width: 60px;
+	height: 30px;
+	border:1px #09d017 solid;
+	color: #09d017;
+	margin-right: 0px;
+	font-family: Helvetica;
+	font-weight: bold:
+	align: center;
+}
+
+#email_btn:hover{
+	background: #09d017;
+	color:#353b47;
+}
 
 .socialspace{
 	width:100px;
-	margin: 20px auto;	
-	position: relative;
+	margin: 0 auto;
+
 }
 
 .socialspace li{
@@ -208,15 +252,15 @@ footer{
 	display: inline-block;
 	float: left;
 	border:0;
-	margin:0;
+	margin-top: 20px;
 	padding: 0;
-		
+	position:relative;
+
 }
 
 .oakland{
 	float: right;
-	margin-right: 50px;
-	margin-bottom: 0;
-	top: -50px;
+	margin-right: 30px;
+	top:40px;
+	position: relative;
 }
-

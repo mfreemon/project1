@@ -2,20 +2,20 @@
 $(document).ready(function(){
 
 // simple mousenter functionality//
-$(".pumpjack").on("mouseenter", function(){
-	$(this).css("background-color", "#ffffff");})
+$(".pumpjackback div").on("mouseenter", function(){
+	$(this).css("color", "#09d017");})
 	.on("mouseleave", function(){
-		$(".pumpjack").css("background-color", "#848484");
+		$(".pumpjackback div").css("color", "#f5f5f5");
 	});
 
 
 
-// toogling between hidden content and arrow animation//
+// toogling between hidden content using arrow animation//
 $(".interestpara").click (function(){
 	$('#careerpara').slideToggle();
 	$('#arrow').toggleClass('active');
 
-});	
+});
 
 
 // smooth scrolling to anchor location vs instantaneous jumping to section/
@@ -53,9 +53,3 @@ $('section[data-type = "background"]').each(function(){
 
 
 });
-
-
-
-
-
-

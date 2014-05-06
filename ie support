@@ -1,0 +1,8 @@
+ <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries. To non IE browsers it is a comment, to IE it is a conditional statement that executes if true. You can download the two JS files and save them to your js folder to have HTML5 tags work in IE8 and earlier. IE9 came out in 2011. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- viewport meta: Include this to ensure proper rendering on mobile devices and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
