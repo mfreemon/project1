@@ -16,34 +16,33 @@
 
   <nav class="navbar">
           <div>
-            <p id="home"><a href = "#pumpjackback">PUMPJACK LABS</a> </p>
-           </div>
+               <p id="home"><a href = "#container1">PUMPJACK LABS</a> </p>
+          </div>
 
           <div class = "navlist">
-          	<ul>
-            	<li id = "navitems" ><a href ="#bio">ME/</a></li>
-            	<li id = "navitems" ><a href = "#interest">INTEREST/</a></li>
-              <li id = "navitems" ><a href = "#inspiration">INSPIRATION/</a></li>
-            </ul>
+              <ul>
+            	     <li id = "navitems" ><a href ="#container2">ME/</a></li>
+            	     <li id = "navitems" ><a href = "#container3">INTEREST/</a></>
+                     <li id = "navitems" ><a href = "#container4">INSPIRATION/</a></li>
+               </ul>
           </div>
   </nav>
 
 
 
-  <section class="pumpjackback" id = "pumpjackback" data-type ="background" data-speed = "5">
+  <section class="container1" id = "container1" data-type ="background" data-speed = "5">
   		<div>
 			<article>
-    			<header class="intro"> <h3>Hacking simply for the Sake of Hacking</h3></header>
-    			Thanks for taking some time out to view one of my first projects. The goal here is to simple create a single page application
-          experimenting with features that have caught my attention on other sites and wanted to practice building myself. This site will serve
-          as my test site for screwing around building out cool features. So check back ever so often to see what's changed.
+    			  <header class="intro"> <h3>Hacking simply for the Sake of Hacking</h3></header>
+    			  Thanks for taking some time out to view one of my first projects. The goal here is to simple create a single page application<em></em>xperimenting with features that have caught my attention on other sites and wanted to practice building myself. This site will serve
+               as my test site for screwing around building out cool features. So check back ever so often to see what's changed.
     		</article>
-   		 </div>
+   	</div>
     </section>
 
   <div class ="divider"></div>
 
-  <section class="bio" id = "bio" data-type = "background" data-speed = "10">
+  <section class="container2" id = "container2" data-type = "background" data-speed = "10">
 
           <div class ="biophoto">
             <p><h1>Brief Synopsis About Me</h1></p>
@@ -55,40 +54,44 @@
 
   <div class ="divider"></div>
 
-<section class="interest" id ="interest" data-type= "background" data-speed = "10">
+<section class="container3" id ="container3" data-type= "background" data-speed = "10">
 
       <div class= "interestpara">
           <a>
       	    <article>
 				      <p><h3>This is project is about...<img id = "arrow" src = "css/img/arrow.png"></h3></p>
-               <p id="careerpara">I've been interested in coding for some time now but have finally
-                 decided to make the jump to web development as a career. I'm really interested in
+                  <p id="careerpara">I've been interested in coding for some time now but have finally decided to make the jump to web development as a career. I'm really interested in
                  developing my skills in UX/UI design.
-             </p>
+                  </p>
 				  </article>
         </a>
-		  </div>
-		</section>
+		</div>
+</section>
 
-    <div class ="divider"></div>
-  <section class="inspiration" id ="inspiration" data-type = "background" data- speed = "10">
+ <div class ="divider"></div>
 
-          <div id ="inspirationpara">
-              <p><h1>People and Works that Inspire Me</h1></p>
-              <p><h3>really cool features coming soon to this section...<h2></p>
-            </div>
-   </section>
+<section class="container4" id ="container4" data-type = "background" data- speed = "10">
+      <div id ="inspirationpara">
+            <p><h1>People and Works that Inspire Me</h1></p>
+            <p><h3>really cool features coming soon to this section...<h2></p>
+      </div>
+</section>
 
 
 
   <div class="language" data-type = "background" data-speed = "10" ></div>
 
-  <footer data-type = "background" data-speed = "10">
+<footer data-type = "background" data-speed = "10">
           <ul class= "checkout">
-            <li> Thanks for taking a Look!</li>
-            <li>I'm always interested in feedback so feel free to shoot me a message.</li>
+               <li> Thanks for taking a Look!</li>
+               <li>I'm always interested in feedback so feel free to shoot me a message.</li>
 
-            <li id><input type = "email" id = "email_input" placeholder = "your email"><input type="Submit" value ="Submit" id = "email_btn"></li>
+               <li >
+                     <form>
+                        <input type = "email" id = "email_input" placeholder = "your email"/>
+                        <input type="Submit" value ="Submit" id = "submit_btn" onsubmit = "validateEmail();"/>
+                     </form>
+               </li>
           </ul>
 
  		     <ul class = "socialspace">
@@ -97,16 +100,15 @@
  		     </ul>
 
 
- 	       <p class = "oakland"><em>It's Great to Curate In &nbsp </em> <a href="https://goo.gl/maps/xClOq" target="_blank"> <img src ="css/img/oakland.png"></a> </p>
+ 	 <p class = "oakland"><em>It's Great to Create In &nbsp </em> <a href="https://goo.gl/maps/xClOq" target="_blank"> <img src ="css/img/oakland.png"></a> </p>
 
- 	 </footer>
-
-
+ </footer>
 
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <!-- Plugins (below), or included individual files as needed -->
     <script src="js/pumpjack.js"></script>
+    <script src ="js/email_test.js"></script>
 
 
   </body>

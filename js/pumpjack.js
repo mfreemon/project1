@@ -2,10 +2,10 @@
 $(document).ready(function(){
 
 // simple mousenter functionality//
-$(".pumpjackback div").on("mouseenter", function(){
+$(".container1 div").on("mouseenter", function(){
 	$(this).css("color", "#09d017");})
 	.on("mouseleave", function(){
-		$(".pumpjackback div").css("color", "#f5f5f5");
+		$(".container1 div").css("color", "#f5f5f5");
 	});
 
 
@@ -27,7 +27,6 @@ $('a').click(function(){
 });
 
 
-// changes nav bar color on skroll and return to initial color on return//
 var navscroll = $(".navbar").offset().top + $(".navbar").height();
 $(window).on('scroll', function(){
 	stop = Math.round($(window).scrollTop());

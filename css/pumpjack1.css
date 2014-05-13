@@ -44,12 +44,12 @@ button{
 	text-align: center;
 }
 
-.pumpjackback{
+.container1{
 	background: url('img/photo2.png') no-repeat;
 	height: 500px;
 }
 
-.pumpjackback div{
+.container1 div{
 	width:450px;
 	top: 100px;
 	margin: 0 auto;
@@ -71,7 +71,7 @@ button{
 	}
 
 
-.bio{
+.container2{
 	height:400px;
 	background-color: #40688F;
 }
@@ -97,7 +97,7 @@ left:10px;
 }
 
 
-.interest{
+.container3{
   background: url('img/photo5.jpg') no-repeat;
   height:400px;
 }
@@ -122,7 +122,7 @@ left:10px;
 	color: #09d017;
 }
 
-.inspiration{
+.container4{
 	height: 400px;
 	background: #bfbcc5;
 	color: #f5f5f5;
@@ -223,7 +223,7 @@ input{
 
 }
 
-#email_btn{
+#submit_btn{
 	background: transparent;
 	border-radius: 5px;
 	width: 60px;
@@ -236,7 +236,7 @@ input{
 	align: center;
 }
 
-#email_btn:hover{
+#submit_btn:hover{
 	background: #09d017;
 	color:#353b47;
 }
