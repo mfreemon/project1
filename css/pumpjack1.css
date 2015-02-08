@@ -60,20 +60,35 @@ button{
 }
 
 /*temp fix for divs causing offset*/
-.biophoto{
-		top: 30px;
-		width:400px;
-		position: relative;
-		margin: 0 auto;
-		text-align: center;
-		font-family: "Josefin Sans", 'sans-serif';
-		margin-top: -16px;
+.biopara{
+	top: -30px;
+	width: 400px;
+	position: relative;
+	text-align: center;
+	font-family: "Josefin Sans", 'sans-serif';
+	display: inline-block;
+	left: 300px;
 	}
+
+.biophoto{
+	display: inline-block;
+}
+
+.photo{
+	border-radius: 5%;
+	border: 5px #bfbcc5 solid;
+	position: relative;
+	top:30px;
+	left:200px;
+
+
+
+}
 
 
 .container2{
 	height:400px;
-	background-color: #40688F;
+	background-color: #243743;
 }
 
 #arrow{
@@ -124,7 +139,8 @@ left:10px;
 
 .container4{
 	height: 400px;
-	background: #bfbcc5;
+	background: #8A949B
+;
 	color: #f5f5f5;
 	font-family: "Josefin Sans", 'sans-serif';
 }
@@ -151,7 +167,7 @@ left:10px;
 	height: 50px;
 	box-shadow: 0 0 8px 0 #3b3b3b;
 	position: fixed;
-	background-color: #09d017;
+	background-color: #28B78D;
 	width: 100%;
 	z-index: 100;
 }
