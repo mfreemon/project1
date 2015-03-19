@@ -1,0 +1,285 @@
+html, body {
+
+	font-family:'Roboto', sans-serif;;
+	font-weight: 400;
+	color: #34363a;
+	/*color:#D9D9D9;*/
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	height:100%
+}
+
+h1,h2,h3 {
+	margin: 0;
+
+}
+a, li, p, div, article, section, footer {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	color: #c92424
+}
+
+button{
+	style: none;
+}
+
+ article{
+	padding:0 10px 10px 10px;
+	font-size: 16px;
+	font-style: Open Sans;
+	margin: 0;
+
+}
+
+
+.divider{
+	height: 15px;
+	background-color: #000;
+}
+
+.intro{
+	text-align: center;
+}
+
+.container1{
+	/*: url('img/pumpjack1.jpg') no-repeat;*/
+	background-image:url('img/pumpjack1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height:500px;
+	min-height: 350px;
+}
+
+.container1 div{
+	width:450px;
+	top: 100px;
+	margin: 0 auto;
+	position: relative;
+	background: rgba(19, 16, 13, 0.6);
+	overflow: auto;
+	margin-bottom: 0px;
+}
+
+/*temp fix for divs causing offset*/
+.biopara{
+	top: -30px;
+	width: 400px;
+	position: relative;
+	text-align: center;
+	font-family: "Josefin Sans", 'sans-serif';
+	display: inline-block;
+	left: 300px;
+	}
+
+.biophoto{
+	display: inline-block;
+}
+
+.photo{
+	border-radius: 5%;
+	border: 5px #bfbcc5 solid;
+	position: relative;
+	top:30px;
+	left:200px;
+
+
+
+}
+
+
+.container2{
+	height:400px;
+	background: url('img/diablo.jpg');
+	// background-color: #E4E6E6;
+
+}
+
+#arrow{
+-webkit-transition:all .5s ease-out;
+   -moz-transition:all .5s ease-out;
+     -o-transition:all .5s ease-out;
+        transition:all .5s ease-out;
+position:relative;
+top:5px;
+left:10px;
+	:active{
+	/*transform*/
+	-webkit-transform:rotate(90deg);
+   	-moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+     -o-transform:rotate(90deg);
+        transform:rotate(90deg);
+	}
+}
+
+.container3{
+  background: url('img/photo7.jpg') no-repeat;
+  height:400px;
+}
+
+
+.interestpara{
+	background: rgba(19, 16, 13, 0.6);
+	height:auto;
+	width:350px;
+	position: relative;
+	overflow:auto;
+	margin: 0 auto;
+	top: 70px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+
+#careerpara{
+	display: none;
+	color: #09d017;
+	font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
+}
+
+.container4{
+	height: 400px;
+	background: #8A949B
+;
+	color: #f5f5f5;
+	font-family: "Josefin Sans", 'sans-serif';
+}
+
+/*temp fix for divs causing offset*/
+#inspirationpara{
+	top: 30px;
+	width:400px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Josefin Sans", 'sans-serif';
+	margin-top: -16px;
+}
+
+
+.language{
+	background: #434955 url('img/codelogo.png') no-repeat 50% 50%;
+	height: 300px;
+
+}
+
+.navbar{
+	height: 50px;
+	box-shadow: 0 0 8px 0 #3b3b3b;
+	position: fixed;
+	background-color: #AAE0DE;
+	/*background-color: #28B78D;*/
+	width: 100%;
+	z-index: 100;
+}
+
+
+#home{
+	width:150px;
+	margin-left: 5%;
+	float:left;
+	font-weight: 500;
+}
+
+.navlist{
+	float: right;
+	margin-right: 80px;
+	margin-left:0;
+
+}
+
+#navitems{
+	font-size: 12px;
+	display:inline;
+	margin-right: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+
+.navfloat{
+	background-color: rgba(170, 224, 222, 0.64);
+	/*background-color: rgba(74,238,22,0.75);*/
+}
+
+footer{
+	height: 200px;
+	background: #34363a;
+	font-family:'Roboto', sans-serif;
+	font-weight: 400;
+	margin-top: -10px;
+	color: #c6dee9;
+
+}
+
+
+.contact-info{
+	margin-top: 10px;
+	top: 20px;
+	width: 200px;
+	margin-left:100px;
+	text-align:left;
+	position: relative;
+ 	li{
+		list-style: none;
+		position: relative;
+		font-size:14px;
+		font-family: "ars-maquette-web", sans-serif;
+	}
+}	
+
+// input{
+// 	margin-top: 10px;
+// }
+
+
+// #email_input{
+// 	-webkit-appearance: none;
+// 	border: 1px #c6dee9 solid;
+// 	text-align: center;
+// 	border-radius: 5px;
+// 	width: 150px;
+// 	height: 25px;
+// 	vertical-align: center;
+// 	margin-right: 5px;
+
+// }
+
+// #submit_btn{
+// 	background: transparent;
+// 	border-radius: 5px;
+// 	width: 60px;
+// 	height: 30px;
+// 	border:1px #09d017 solid;
+// 	color: #09d017;
+// 	margin-right: 0px;
+// 	font-family: Helvetica;
+// 	font-weight: bold;
+// 	align: center;
+// 	:hover{
+// 		background: #09d017;
+// 		color:#353b47;
+// 	}
+// }	
+
+.socialspace{
+	width:200px;
+	margin: 0 auto;
+  	li{
+		list-style-type: none;
+		display: inline-block;
+		float: left;
+		border:0;
+		margin-top: 20px;
+		padding: 0;
+		position:relative;
+	}
+	li:nth-child(3){
+		margin-top: 23px;
+  		margin-left: 3px;
+	}	
+}
