@@ -36,6 +36,7 @@ button{
 }
 
 
+
 .divider{
 	height: 15px;
 	background-color: #000;
@@ -143,10 +144,27 @@ left:10px;
 
 .container4{
 	height: 400px;
-	background: #8A949B
-;
-	color: #f5f5f5;
+	background:#f3f3f4;
+	// background: #8A949B;
 	font-family: "Josefin Sans", 'sans-serif';
+}
+#about{
+	margin: 0 auto;
+	width:1200px;
+		div{
+		 	width: 350px;
+  		  	float:left;
+ 			height: 200px;
+  			margin-left: 15px;
+  			background-color:rgba(170, 224, 222, 0.64);
+  			margin: 25px
+		}
+		p{
+			padding:10px;
+		}
+		h2{
+			padding:10px;
+		}
 }
 
 /*temp fix for divs causing offset*/
@@ -226,6 +244,7 @@ footer{
 	position: relative;
  	li{
 		list-style: none;
+		line-height: 20px;
 		position: relative;
 		font-size:14px;
 		font-family: "ars-maquette-web", sans-serif;
@@ -277,9 +296,6 @@ footer{
 		margin-top: 20px;
 		padding: 0;
 		position:relative;
-	}
-	li:nth-child(3){
-		margin-top: 23px;
-  		margin-left: 3px;
+		margin: 0 5px 0 5px;
 	}	
 }
