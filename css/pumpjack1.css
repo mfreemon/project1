@@ -16,7 +16,7 @@ a, li, p, div, article, section, footer {
   color: inherit; }
 
 a:hover {
-  color: #c92424; }
+  color: #730c1f; }
 
 button {
   style: none; }
@@ -27,9 +27,11 @@ article {
   font-style: Open Sans;
   margin: 0; }
 
-.divider {
-  height: 15px;
-  background-color: #000; }
+hr {
+  height: 5px;
+  background-color: #000;
+  border: 0;
+  margin: 0; }
 
 .intro {
   text-align: center; }
@@ -91,7 +93,7 @@ article {
     -o-transform: rotate(90deg);
     transform: rotate(90deg); }
 
-.container3 {
+.container4 {
   background: url("img/photo7.jpg") no-repeat;
   height: 400px; }
 
@@ -111,25 +113,30 @@ article {
   color: #09d017;
   font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace; }
 
-.container4 {
-  height: 400px;
-  background: #f3f3f4;
+.container3 {
+  height: 300px;
+  background: #bfbfbf;
   font-family: "Josefin Sans", 'sans-serif'; }
 
-#about {
+.about {
   margin: 0 auto;
-  width: 1200px; }
-  #about div {
-    width: 350px;
+  width: 1050px;
+  position: relative;
+  height: 250px;
+  padding-top: 50px; }
+  .about div {
+    width: 330px;
     float: left;
     height: 200px;
-    margin-left: 15px;
     background-color: rgba(170, 224, 222, 0.64);
-    margin: 25px; }
-  #about p {
-    padding: 10px; }
-  #about h2 {
-    padding: 10px; }
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px #888888; }
+  .about p {
+    padding: 10px;
+    margin-bottom: 0; }
+  .about h2 {
+    padding: 10px;
+    color: #730c1f; }
 
 /*temp fix for divs causing offset*/
 #inspirationpara {
